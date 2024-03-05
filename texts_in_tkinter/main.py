@@ -121,7 +121,6 @@ def main():
     content_entry = tk.Text(root, height=5, width=30)
     content_entry.pack()
 
-    # Buttons for File Operations
     create_file_button = tk.Button(root, text='Создать файл',
                                    command=lambda: create_text_file(username, filename_entry.get()), bg='orange')
     create_file_button.pack()
