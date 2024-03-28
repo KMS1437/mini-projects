@@ -35,7 +35,7 @@ def show_menu(update: Update, context: CallbackContext) -> None:
 def help_command(update: Update, context: CallbackContext) -> None:
 update.message.reply_text("Команды:\n/start - Включить бота\n/menu - Показать меню\n/help - Показать команды")
 
-updater = Updater("7190700871:AAHDcCQEdqlVDz4uk5bNwBAm2XIlTunRH0Y", use_context=True)
+updater = Updater("я не пишу токены, я не максик", use_context=True)
 dispatcher = updater.dispatcher
 
 dispatcher.add_handler(CommandHandler("start", start))
